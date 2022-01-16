@@ -1,21 +1,21 @@
   {
     "configuration": {
-    "name": "LC HR",
+    "name": "Ld-001",
       "machineConfig": {
-      "name": "LC HR",
+      "name": "Ld-001",
         "FileVersion": 0,
-      "PlatformXSize": 160,
-      "PlatformYSize": 120,
-        "PlatformZSize": 200,
+      "PlatformXSize": 120,
+      "PlatformYSize": 160,
+        "PlatformZSize": 120,
         "MaxXFeedRate": 0,
         "MaxYFeedRate": 0,
         "MaxZFeedRate": 0,
       "XRenderSize": 2048,
       "YRenderSize": 1536,
         "MotorsDriverConfig": {
-          "DriverType": "Photocentric",
+          "DriverType": "eGENERIC",
           "ComPortSettings": {
-            "PortName": "Autodetect 3d printer firmware",
+            "PortName": "/dev/ttyUSB0",
             "Speed": 115200,
             "Databits": 8,
             "Parity": "None",
@@ -24,18 +24,18 @@
           }
         },
         "MonitorDriverConfig": {
-          "DLP_X_Res": 2048,
-          "DLP_Y_Res": 1536,
+          "DLP_X_Res": 0,
+          "DLP_Y_Res": 0,
           "MonitorID": "DISPLAY1",
-          "OSMonitorID": "Photocentric Custom Display",
+          "OSMonitorID": "RaspberryQuickScreen",
           "DisplayCommEnabled": false,
           "ComPortSettings": {
             "Handshake": "None"
           },
-          "MonitorTop": 12,
-          "MonitorLeft": 11,
-          "MonitorRight": 11,
-          "MonitorBottom": 12,
+          "MonitorTop": 0,
+          "MonitorLeft": 0,
+          "MonitorRight": 0,
+          "MonitorBottom": 0,
           "UseMask": false
         },
         "PauseOnPrinterResponseRegEx": ".*door.*open.*"
